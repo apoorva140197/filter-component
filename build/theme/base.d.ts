@@ -1,0 +1,40 @@
+export declare const colors: {
+    darkeMagenta: string;
+    magenta: string;
+    lightMagenta: string;
+    white: string;
+    black: string;
+    gray: string;
+    warmGray: string;
+    mediumGray: string;
+    ironGray: string;
+    coldGray: string;
+    cloudGray: string;
+    darkGray: string;
+    lightgray: string;
+    steelGray: string;
+    charcoalGray: string;
+    shadowGray: string;
+    silverGray: string;
+    orange: string;
+    fogGray: string;
+    lightBlue: string;
+    red: string;
+    redHover: string;
+    successGreen: string;
+};
+export declare const hexToRgbA: (hex: string, alpha: string | number) => string;
+export declare const fonts: {
+    magenta: string;
+    white: string;
+    black: string;
+};
+export declare const spacing: {};
+export declare const misc: {};
+export declare const breakpoints: {
+    mobile: number;
+    tabletPortrait: number;
+    tabletLandscape: number;
+    desktop: number;
+    desktopLarge: number;
+};
